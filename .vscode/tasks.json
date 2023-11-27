@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "deno",
+			"command": "run",
+			"label": "deno: run",
+			"args": [
+				"./kata.ts",
+			],
+			"problemMatcher": [
+				"$deno"
+			],
+		}
+	]
+}
